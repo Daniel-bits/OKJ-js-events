@@ -1,0 +1,19 @@
+Az alábbi feladatokat külön html dokumentumokba készítsd el, melyek neve a feladat számát jelölje. (pl.: feladat3.html).
+A teljes projektet egy publikus github repoba töltsd fel és a repo linkjét csatold a megoldásban.
+
+1.Hozz létre egy gombot, melynek felirata "Hüzd ide az egeret" legyen. Ha a gombra ráhúzzuk az egeret akkor a gomb felirata "Sikerült" legyen.
+2.Hozz létre egy oldalt három beviteli mezővel. A kijelölt beviteli mezőben a szöveg színe legyen zöld, ellenkező esetben maradjon fekete betű szín.
+3.Hozz létre egy oldalt egy bekezdéssel és alatta egy képpel. 
+
+Ha a kép betöltődött akkor a bekezdésben jelenjen meg a "Betöltődött" felirat. 
+A képre kattintva a bekezdés felirata "Rákattintott" legyen.
+
+
+Hozz létre egy oldalt egy bekezdéssel és egy beviteli mezővel. 
+Ha a beviteli mezőbe beképelünk valamit akkor a bekezdésben is jelenjen meg az a szöveg. 
+(A beviteli mezőben lévő értéket annak 'value' tulajdonságával tudja lekérdezni.)
+
+4 külön html dokumentumba githubra tölteni
+beviteli mezőben value értékkel tudunk lekérdezni minden másra néztünk példát
+
+
