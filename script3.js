@@ -1,11 +1,11 @@
-const fdsa = document.querySelector('img');
-const fdsa2 = document.querySelector('#output');
+const imgTag = document.querySelector('img');
+const pTag = document.querySelector('#output p');
 
 function loaded() {
-fdsa2.textContent = 'Betöltődött';
+pTag.textContent = 'Betöltődött';
 }
 window.addEventListener('load', loaded());
 
-fdsa.onclick = () => {
-	fdsa2.textContent = 'Rákattintott';
+imgTag.onclick = () => {
+	pTag.textContent = 'Rákattintott';
 }
