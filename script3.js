@@ -1,11 +1,11 @@
-const imgTag = document.querySelector('img');
-const pTag = document.querySelector('#output p');
+﻿const imgTag = document.querySelector('img');
+const spanTag = document.querySelector('#output span');
 
 function loaded() {
-pTag.textContent = 'Betöltődött';
+spanTag.textContent = 'Betöltődött';
 }
 window.addEventListener('load', loaded());
 
 imgTag.onclick = () => {
-	pTag.textContent = 'Rákattintott';
+	spanTag.textContent = 'Rákattintott';
 }
